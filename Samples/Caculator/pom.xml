@@ -1,17 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>samples</artifactId>
+        <groupId>com.mj.akka</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../..</relativePath>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mj.akka</groupId>
-    <artifactId>samples</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>Samples/HelloWorld</module>
-        <module>Samples/Caculator</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>Caculator</artifactId>
+    <packaging>jar</packaging>
 
-    <name>samples</name>
+    <name>HelloWorld</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -22,13 +22,8 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.10</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-actor_2.10</artifactId>
-            <version>2.3.6</version>
         </dependency>
     </dependencies>
 </project>
