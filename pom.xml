@@ -8,6 +8,9 @@
     <modules>
         <module>Samples/HelloWorld</module>
         <module>Samples/Caculator</module>
+        <module>Samples/RemoteCaculator</module>
+        <module>Samples/RemoteTest</module>
+        <module>Samples/CountWord</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -22,13 +25,33 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.10</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-actor_2.10</artifactId>
             <version>2.3.6</version>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.typesafe.akka</groupId>-->
+            <!--<artifactId>akka-remote_2.11</artifactId>-->
+            <!--<version>2.4-SNAPSHOT</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.typesafe.akka</groupId>-->
+            <!--<artifactId>akka-remote_2.11.0-M3</artifactId>-->
+            <!--<version>2.2.0-RC1</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-remote_2.10</artifactId>
+            <version>2.3.1</version>
         </dependency>
     </dependencies>
 </project>
