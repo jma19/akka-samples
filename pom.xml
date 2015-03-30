@@ -9,8 +9,10 @@
         <module>Samples/HelloWorld</module>
         <module>Samples/Caculator</module>
         <module>Samples/RemoteCaculator</module>
-        <module>Samples/RemoteTest</module>
+        <module>Samples/RemoteServer</module>
+        <module>Samples/LocalClient</module>
         <module>Samples/CountWord</module>
+        <module>Samples/ASKExample</module>
     </modules>
     <packaging>pom</packaging>
 
